@@ -1,0 +1,81 @@
+/* General Blog Section Styling */
+.blog-section {
+  padding: 50px 0;
+  background-color: #f9f9f9;
+  text-align: center;
+}
+
+.blog-section h2 {
+  font-size: 2rem;
+  margin-bottom: 30px;
+  color: #04518f;
+}
+
+.blog-slider-wrapper {
+  overflow: hidden;
+  position: relative;
+  width: 100%;
+}
+
+.blog-slider {
+  display: flex;
+  transition: transform 0.5s ease-in-out;
+}
+
+.blog-card {
+  flex: 0 0 100%;
+  max-width: 100%;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  background: #fff;
+  margin: 0 10px;
+  border-radius: 8px;
+  text-align: center;
+  padding: 15px;
+}
+
+.blog-image {
+  width: 100%;
+  border-radius: 8px 8px 0 0;
+}
+
+.blog-content {
+  padding: 10px;
+}
+
+.blog-content h3 {
+  font-size: 1.5rem;
+  color: #04518f;
+}
+
+.blog-content p {
+  margin: 5px 0;
+}
+
+/* Slider Navigation */
+.blog-slider-navigation {
+  margin-top: 20px;
+}
+
+.slider-prev,
+.slider-next {
+  background-color: #04518f;
+  color: #fff;
+  border: none;
+  padding: 10px;
+  border-radius: 50%;
+  cursor: pointer;
+  margin: 0 5px;
+}
+
+.slider-prev:hover,
+.slider-next:hover {
+  background-color: #03385f;
+}
+
+/* Responsive Design */
+@media (min-width: 768px) {
+  .blog-card {
+    flex: 0 0 33.333%;
+    max-width: 33.333%;
+  }
+}

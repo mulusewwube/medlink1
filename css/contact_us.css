@@ -1,0 +1,139 @@
+/* General Contact Section Style */
+.contact .section-title h2 {
+    font-size: 32px;
+    color: var(--default-color);
+    margin-bottom: 20px;
+  }
+  
+  .contact .section-title p {
+    color: var(--default-color);
+    font-size: 16px;
+    text-align: center;
+  }
+  
+  /* Info Item Styles */
+  .contact .info-item {
+    background-color: var(--surface-color);
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+    padding: 24px 0;
+    text-align: center;
+    transition: all 0.3s ease;
+  }
+  
+  .contact .info-item i {
+    color: var(--accent-color);
+    width: 56px;
+    height: 56px;
+    font-size: 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    border: 2px solid var(--accent-color);
+    transition: all 0.3s ease;
+  }
+  
+  .contact .info-item:hover {
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
+  }
+  
+  .contact .info-item:hover i {
+    background-color: var(--accent-color);
+    color: white;
+  }
+  
+  .contact .info-item h3 {
+    font-size: 20px;
+    color: var(--default-color);
+    font-weight: 700;
+    margin: 10px 0;
+  }
+  
+  .contact .info-item p {
+    font-size: 14px;
+    color: var(--default-color);
+    margin-bottom: 0;
+  }
+  
+  /* Form Styles */
+  .contact .php-email-form {
+    background-color: var(--surface-color);
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+    padding: 30px;
+  }
+  
+  .contact .php-email-form input, .contact .php-email-form textarea {
+    width: 100%;
+    padding: 15px;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+  }
+  
+  .contact .php-email-form button[type="submit"] {
+    background-color: var(--accent-color);
+    color: white;
+    border: none;
+    padding: 12px 24px;
+    font-size: 16px;
+    font-weight: 600;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+  }
+  
+  .contact .php-email-form button[type="submit"]:hover {
+    background-color: color-mix(in srgb, var(--accent-color), black 15%);
+    transform: scale(1.05);
+  }
+  
+  /* Responsive Styles */
+  @media (max-width: 575px) {
+    .contact .info-item {
+      padding: 15px 10px;
+    }
+  
+    .contact .php-email-form {
+      padding: 20px;
+    }
+  
+    .contact .php-email-form button[type="submit"] {
+      width: 100%;
+    }
+  
+    .contact .info-item i {
+      width: 50px;
+      height: 50px;
+      font-size: 20px;
+    }
+  
+    .contact .info-item h3 {
+      font-size: 18px;
+    }
+  
+    .contact .info-item p {
+      font-size: 14px;
+    }
+  }
+
+  .contact .php-email-form button[type="submit"] {
+    background-color: var(--accent-color);
+    color: #3498db; /* Blue text color */
+    border: none;
+    padding: 12px 24px;
+    font-size: 16px;
+    font-weight: 600;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+  }
+  
+  .contact .php-email-form button[type="submit"]:hover {
+    background-color: color-mix(in srgb, var(--accent-color), black 15%);
+    color: #5dade2; /* Light blue text color on hover */
+    transform: scale(1.05);
+  }
+  
+  
+
+  
